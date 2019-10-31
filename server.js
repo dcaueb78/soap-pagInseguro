@@ -8,4 +8,7 @@ client.call("RegisterUserSoap", [1,2,4], function(err, result){
   if(!err) {
     console.log("Resultado: " + result);
   }
+  else {
+    console.log("Error ")
+  }
 })
